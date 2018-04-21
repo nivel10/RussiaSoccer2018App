@@ -48,12 +48,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="2.5.*" />
     <PackageReference Include="Xamarin.Android.Support.Design" Version="25.*" />
     <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="25.*" />
     <PackageReference Include="Xamarin.Android.Support.v4" Version="25.*" />
     <PackageReference Include="Xamarin.Android.Support.v7.CardView" Version="25.*" />
     <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="25.*" />
+    <PackageReference Include="Xamarin.Forms">
+      <Version>2.5.1.444934</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -82,6 +84,10 @@
     <AndroidResource Include="Resources\mipmap-xxhdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
+    <AndroidResource Include="Resources\drawable\RussiaLogo.png" />
+    <AndroidResource Include="Resources\drawable\FacebookLogo.png" />
+    <AndroidResource Include="Resources\drawable\InstagramLogo.png" />
+    <AndroidResource Include="Resources\drawable\TwitterLogo.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
@@ -92,7 +98,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RussiaSoccer2018App\RussiaSoccer2018App.csproj">
-      <Project>{AB2672F3-AA96-4205-8120-BF1699D95FDB}</Project>
+      <Project>{09AFF5DB-E2AB-46EE-BAB9-81555305C863}</Project>
       <Name>RussiaSoccer2018App</Name>
     </ProjectReference>
   </ItemGroup>

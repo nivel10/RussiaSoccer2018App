@@ -94,6 +94,7 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Resources\RussiaLogo.png" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -144,13 +145,20 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="2.5.*" />
+    <PackageReference Include="Xamarin.Forms">
+      <Version>2.5.1.444934</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\RussiaSoccer2018App\RussiaSoccer2018App.csproj">
-      <Project>{AB2672F3-AA96-4205-8120-BF1699D95FDB}</Project>
+      <Project>{09AFF5DB-E2AB-46EE-BAB9-81555305C863}</Project>
       <Name>RussiaSoccer2018App</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FacebookLogo.png" />
+    <BundleResource Include="Resources\InstagramLogo.png" />
+    <BundleResource Include="Resources\TwitterLogo.png" />
   </ItemGroup>
 </Project>

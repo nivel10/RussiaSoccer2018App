@@ -144,13 +144,19 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="2.5.*" />
-    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.0.1"/>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.0.1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RussiaSoccer2018App\RussiaSoccer2018App.csproj">
       <Project>{AB2672F3-AA96-4205-8120-BF1699D95FDB}</Project>
       <Name>RussiaSoccer2018App</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RussiaLogo.png" />
+    <None Include="FacebookLogo.png" />
+    <None Include="TwitterLogo.png" />
+    <None Include="InstagramLogo.png" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

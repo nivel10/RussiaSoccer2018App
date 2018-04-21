@@ -1,15 +1,17 @@
-﻿using System;
-using Xamarin.Forms;
-
-namespace RussiaSoccer2018App
+﻿namespace RussiaSoccer2018App
 {
+	using System;
+	using RussiaSoccer2018App.Views;
+	using Xamarin.Forms;
+
 	public partial class App : Application
 	{
 		public App ()
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			//  MainPage = new MainPage();
+			MainPage = new LoginPage();
 		}
 
 		protected override void OnStart ()
