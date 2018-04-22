@@ -8,8 +8,12 @@
 
         <!-- Application resource dictionary -->
         <ResourceDictionary>
-            
+
+            <!-- Definition Locator -->
             <infra:InstanceLocator x:Key="Locator" />
+
+            <!-- Static Parameters -->
+            <x:String x:Key="UrlAPI">http://chejconsultor.ddns.net:9015</x:String>
             
         </ResourceDictionary>
             

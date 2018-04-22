@@ -30,7 +30,7 @@
                     <Entry Grid.Column="1"
                            Grid.Row="0"
                            IsEnabled="{Binding IsEnabled, Mode=TwoWay}"
-                           Placeholder="Enter an email...!!!"
+                           Placeholder="Enter your email...!!!"
                            Keyboard="Email"
                            Text="{Binding Email, Mode=TwoWay}"
                            VerticalOptions="Center"/>
