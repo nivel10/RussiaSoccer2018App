@@ -59,45 +59,51 @@
 
 		#region Commands
 
-		public ICommand ForgotPasswordCommand
-		{
-			get
-			{
-				return new RelayCommand(ForgotPassword);
-			}
-		}
+		public ICommand ForgotPasswordCommand => new RelayCommand(ForgotPassword);
+		public ICommand LoginCommand => new RelayCommand(Login);
+		public ICommand LoginFacebookCommand => new RelayCommand(LoginFacebook);
+		public ICommand LoginInstagramCommand => new RelayCommand(LoginInstagram);
+		public ICommand LoginTwitterCommand => new RelayCommand(LoginTwitter);
 
-		public ICommand LoginCommand
-		{
-			get
-			{
-				return new RelayCommand(Login);
-			}
-		}
+		//public ICommand ForgotPasswordCommand
+		//{
+		//	get
+		//	{
+		//		return new RelayCommand(ForgotPassword);
+		//	}
+		//}
+        
+		//public ICommand LoginCommand
+		//{
+		//	get
+		//	{
+		//		return new RelayCommand(Login);
+		//	}
+		//}
 
-		public ICommand LoginFacebookCommand
-		{
-			get
-			{
-				return new RelayCommand(LoginFacebook);
-			}
-		}
+		//public ICommand LoginFacebookCommand
+		//{
+		//	get
+		//	{
+		//		return new RelayCommand(LoginFacebook);
+		//	}
+		//}
 
-		public ICommand LoginInstagramCommand
-		{
-			get
-			{
-				return new RelayCommand(LoginInstagram);
-			}
-		}
+		//public ICommand LoginInstagramCommand
+		//{
+		//	get
+		//	{
+		//		return new RelayCommand(LoginInstagram);
+		//	}
+		//}
 
-		public ICommand LoginTwitterCommand
-		{
-			get
-			{
-				return new RelayCommand(LoginTwitter);
-			}
-		}
+		//public ICommand LoginTwitterCommand
+		//{
+		//	get
+		//	{
+		//		return new RelayCommand(LoginTwitter);
+		//	}
+		//}
 
 		#endregion Commands
 
